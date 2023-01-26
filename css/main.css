@@ -1,0 +1,33 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+}
+
+#menu li > a{
+    font-size: 18px;
+    font-weight:bold;
+    color:#3f3f3f;
+}
+#menu form > button{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.carousel-inner {
+    max-height: 39rem;
+   
+}
+/**** response pantalla *****/
+@media(max-width:768px){
+    intro{
+        width: 90%  !important;
+    }
+}
+
+/***** En response pantalla *****/
+
+.ltr {
+    @import "../node_modules/bootstrap/scss/bootstrap";
+  }
+  /*rtl:end:options*/
+
